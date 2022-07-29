@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600&family=Edu+VIC+WA+NT+Beginner&family=IBM+Plex+Serif:ital,wght@1,500&family=Ibarra+Real+Nova:ital@1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand ps-2" href="#">Pro edu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Course</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help line</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Class</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="button">Registration</button>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner text-center  ">
+                <style>
+                    .carousel-caption {
+                        padding: 50px;
+                        height: 600px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        font-size: 19px;
+                        color: rgb(41, 41, 41);
+                        font-family: 'IBM Plex Serif', serif;
+                        text-align: center;
+
+                    }
+                </style>
+                <div class="carousel-item active">
+                    <img src="image/cover-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption test-center">
+
+                        <h1 class="">Featured Programs for you</h1>
+                        <p class="fs-5 text-center">With India's largest online higher education company, get 360 degree
+                            career
+                            support.
+                            mentorship from industry experts, networking opportunities, and more.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/cover-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption test-center">
+
+                        <h1>Featured Programs for you</h1>
+                        <p class="fs-5">With India's largest online higher education company, get 360 degree career
+                            support.
+                            mentorship from industry experts, networking opportunities, and more.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/cover-2.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption test-center">
+
+                        <h1>Featured Programs for you</h1>
+                        <p class="fs-5">With India's largest online higher education company, get 360 degree career
+                            support.
+                            mentorship from industry experts, networking opportunities, and more.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="hero carousel-hero">
+        <div id="homeHerocarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#homeHerocarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#homeHerocarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#homeHerocarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner h-100">
+
+                <div class="carousel-item text-center "
+                    style="background-image: url(image/cover-1.png); height: 600px; ;">
+                    <div class="row">
+                        <div class="my-auto text-center ">
+                            <h1 class="hero-headline white text-center">Fundamentals of digital marketing</h1>
+                            <h3 class="hero-subhead white text-center">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit,</h3>
+                        </div>
+                    </div><!-- close row -->
+                </div> <!-- close item -->
+
+                <div class="carousel-item " style="background-image: url(image/cover-2.jpg)">
+                    <div class="my-auto text-center ">
+                        <h1 class="hero-headline white text-center">Item 2</h1>
+                        <h3 class="hero-subhead white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit,</h3>
+                    </div>
+                </div> <!-- close item -->
+
+                <div class="carousel-item " style="background-image: url(image/cover-3.jpg)">
+                    <div class="my-auto text-center ">
+                        <h1 class="hero-headline white text-center">Item 3</h1>
+                        <h3 class="hero-subhead white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit,</h3>
+                    </div>
+                </div> <!-- close item -->
+
+            </div> <!-- close inner -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#homeHerocarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#homeHerocarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="container test-center w-50% pt-5">
+            <div>
+                <h2 class="text-center">Engage audiences with video everywhere</h2>
+                <p>Make the most from every impression with a variety of video ad formats, including in-stream,
+                    out-stream,
+                    vertical, and rewarded video. Bring high-performing YouTube formats — like bumpers and TrueView — to
+                    your sites and apps for additional reach.</p>
+            </div>
+        </div>
+    </section><br><br>
+
+
+    <section>
+
+        <div class="container text-center   ">
+            <div class="row   p-3">
+
+
+
+                <div class="col-sm-12 col-md-12 col-lg-6 p-3">
+                    <div class="">
+                        <img src="image/course-1.png" alt="" style="float:left ;height: 130px; margin: 10px; ">
+                    </div>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id quasi ea in vel
+                        explicabo,
+                        ipsam doloremque suscipit libero qui, ma c</p>
+
+                    <p class="text-primary text-start">price:20$</p>
+
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 p-3">
+                    <div class="">
+                        <img src="image/course-2.png" alt="" style="float:left ;height: 130px; margin: 10px; ">
+                    </div>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id quasi ea in vel
+                        explicabo,
+                        ipsam doloremque suscipit libero qui, ma c</p>
+
+                    <p class="text-primary text-start">price:22$</p>
+
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 p-3">
+                    <div class="">
+                        <img src="image/course-3.png" alt="" style="float:left ;height: 130px; margin: 10px; ">
+                    </div>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id quasi ea in vel
+                        explicabo,
+                        ipsam doloremque suscipit libero qui, ma c</p>
+
+                    <p class="text-primary text-start">price:30$</p>
+
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 p-3">
+                    <div class="">
+                        <img src="image/course-4.png" alt="" style="float:left ;height: 130px; margin: 10px; ">
+                    </div>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id quasi ea in vel
+                        explicabo,
+                        ipsam doloremque suscipit libero qui, ma c</p>
+
+                    <p class="text-primary text-start">price:14$</p>
+
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 p-3">
+                    <div class="">
+                        <img src="image/course-5.png" alt="" style="float:left ;height: 130px; margin: 10px; ">
+                    </div>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id quasi ea in vel
+                        explicabo,
+                        ipsam doloremque suscipit libero qui, ma c</p>
+
+                    <p class="text-primary text-start">price:35$</p>
+
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 p-3">
+                    <div class="">
+                        <img src="image/course-6.png" alt="" style="float:left ;height: 130px; margin: 10px; ">
+                    </div>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id quasi ea in vel
+                        explicabo,
+                        ipsam doloremque suscipit libero qui, ma c</p>
+
+                    <p class="text-primary text-start">price:30$</p>
+
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary">See more Courses</button><br><br>
+        </div>
+
+
+
+
+    </section>
+
+
+    <section>
+        <!-- <div class="container text-center">
+            <div class="row">
+                <div class="col-12 bg-primary">
+                    <div class="col-6 bg-secondary">
+                        <p class="p-5 m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere id culpa
+                            quidem
+                            incidunt
+                            tempore
+                            nulla, ducimus eveniet cumque laudantium voluptates nostrum desp
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-primary btn-lg cal-6 ">Large button</button>
+
+                </div>
+            </div>
+
+        </div> -->
+
+
+
+        <div class="container text-center bg-primary pt-5 raoundad text-white ">
+            <div class="row ">
+                <style class="container">
+
+                </style>
+                <div class="col">
+                    <h2>Ready to Join?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sequi enim odit at ipsum unde
+                        eveniet ipsa, sit et, ab dignissimos quis architecto! Quod consequuntur nemo possimus.
+                        Voluptatum, unde ipsam.
+                    </p>
+                </div>
+                <div class="col pt-5">
+                    <button type="button" class="btn btn-secondary btn-lg cal-6 ">Registration now</button>
+                </div>
+            </div>
+
+    </section>
+
+
+    <section>
+        <div class="container pt-5">
+            <h1>meet Our successful student</h1>
+            <p>Successful students take advantage of extra credit opportunities when offered. They demonstrate that they
+                care about their grades and are willing to work to improve them. They often do the optional (and
+                frequently
+                challenging) assignments that many students avoid. Successful students are attentive in class.</p>
+
+            <div class="row row-cols-1 row-cols-md-4 row-col-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="image/image-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">graphics design</h5>
+                            <p class="card-text">A graduate of Shillington Manchester, Charlotte Jepson is a designer
+                                and illustrator with a keen interest in brand identity and packaging design.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="image/image-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">graphics design</h5>
+                            <p class="card-text">A graduate of Shillington Manchester, Charlotte Jepson is a designer
+                                and illustrator with a keen interest in brand identity and packaging design.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="image/image-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">graphics design</h5>
+                            <p class="card-text">A graduate of Shillington Manchester, Charlotte Jepson is a designer
+                                and illustrator with a keen interest in brand identity and packaging design.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="image/image-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">graphics design</h5>
+                            <p class="card-text">A graduate of Shillington Manchester, Charlotte Jepson is a designer
+                                and illustrator with a keen interest in brand identity and packaging design.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section>
+        <div class="container text-center pt-5">
+            <h1>Some student feedback</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti odio blanditiis obcaecati
+                dolores ut sapiente, deserunt eum dolorum consequatur nam, praesentium mollitia quam in reiciendis
+                aliquam quod harum quis?</p>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container pt-5   ">
+            <div class="row ">
+
+                <div class="col border border-secondary rounded  ">
+                    <img src="image/comma.png" alt="" class="pt-3">
+                    <div class="float-end pt-3">
+                        <span class="fa fa-star checked" style="color:rgb(255, 218, 32);"></span>
+                        <span class="fa fa-star checked" style="color:rgb(255, 218, 32);"></span>
+                        <span class="fa fa-star checked" style="color:rgb(255, 218, 32);"></span>
+                        <span class="fa fa-star checked" style="color:rgb(255, 218, 32);"></span>
+
+
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, error libero? Blanditiis
+                        doloribus
+                        nisi, odio dolor et pariatur odit quod facere, eum, dolorem optio atque nihil repellendus amet
+                        labore voluptatem?</p>
+                    <img src="image/image-3.jpg" class="rounded-circle fluid " alt="..."
+                        style="height: 60px; width: 60px; display: inline;">
+                    <p class="display-inline h5">Ruhul Amin</p>
+
+                    <p>UL Designer</p>
+
+                </div>
+                <div class="col border border-secondary rounded ">
+                    <img src="image/comma.png" alt="" class="pt-3">
+                    <div class="float-end pt-3">
+                        <span class="fa fa-star checked" style="color:rgb(255, 218, 32);"></span>
+                        <span class="fa fa-star checked" style="color:rgb(255, 218, 32);"></span>
+                        <span class="fa fa-star checked" style="color:rgb(255, 218, 32);"></span>
+                        <span class="fa fa-star checked" style="color:rgb(255, 218, 32);"></span>
+
+
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, error libero? Blanditiis
+                        doloribus
+                        nisi, odio dolor et pariatur odit quod facere, eum, dolorem optio atque nihil repellendus amet
+                        labore voluptatem?</p>
+                    <div class="float-start d-inline">
+                        <img src="image/image-4.jpg" class="rounded-circle fluid " alt="..."
+                            style="height: 60px; width: 60px; display: inline;">
+                        <p class="display-inline h5">Ornob Khan</p>
+                        <p>UL Designer</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="container pt-5 pb-5">
+            <div>
+                <div class="text-center" pt-3>
+                    <p class="h1 ">frequently asked questions</p>
+                    <p>Energy healing refers to a wide range of non-toxic and sometimes no-touch modalities. Here are
+                        frequently asked questions about the healing modalities Noble Touch practices. "I AM"
+                        Fellowship. Experience Self Healing. About Pranic Healing. The Healing Center. Offerings.</p>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What specific coding languages do you work with?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>The specific role of a Web Developer will vary greatly depending on the specific
+                                    job description,</strong> and whether or not a hiring manager is looking for
+                                back-end specialists or front-end web developers.
+
+                                Ultimately, though, most Web Developer roles will span the following responsibilities:
+
+                                Working directly with clients or company stakeholders to understand their needs and
+                                requirements
+                                Designing, developing, programming, testing, upgrading, and debugging web applications
+                                Collaborating with designers, other developers, UX specialists, sales and marketing
+                                teams, and other stakeholders to design, develop, and deploy major web projects
+                                Support the maintenance of websites, web applications, and other web products Those are
+                                just the most general routine web development tasks, but to get more specific, refer
+                                back to the job description and make sure your answer covers the major responsibilities
+                                and competencies demanded by the position.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What web development tools do you use?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>The specific role of a Web Developer will vary greatly depending on the specific
+                                    job description,</strong> and whether or not a hiring manager is looking for
+                                back-end specialists or front-end web developers.
+
+                                Ultimately, though, most Web Developer roles will span the following responsibilities:
+
+                                Working directly with clients or company stakeholders to understand their needs and
+                                requirements
+                                Designing, developing, programming, testing, upgrading, and debugging web applications
+                                Collaborating with designers, other developers, UX specialists, sales and marketing
+                                teams, and other stakeholders to design, develop, and deploy major web projects
+                                Support the maintenance of websites, web applications, and other web products Those are
+                                just the most general routine web development tasks, but to get more specific, refer
+                                back to the job description and make sure your answer covers the major responsibilities
+                                and competencies demanded by the position.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is your approach to best integrate them into the site?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>The specific role of a Web Developer will vary greatly depending on the specific
+                                    job description,</strong> and whether or not a hiring manager is looking for
+                                back-end specialists or front-end web developers.
+
+                                Ultimately, though, most Web Developer roles will span the following responsibilities:
+
+                                Working directly with clients or company stakeholders to understand their needs and
+                                requirements
+                                Designing, developing, programming, testing, upgrading, and debugging web applications
+                                Collaborating with designers, other developers, UX specialists, sales and marketing
+                                teams, and other stakeholders to design, develop, and deploy major web projects
+                                Support the maintenance of websites, web applications, and other web products Those are
+                                just the most general routine web development tasks, but to get more specific, refer
+                                back to the job description and make sure your answer covers the major responsibilities
+                                and competencies demanded by the position.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container pt-5 text-center">
+            <p class="h3">Trasted by over 800+ company</p>
+            <div class="row row-cols-1 row-cols-md- g-7">
+                <div class="col">
+                    <div class="card">
+
+                        <div class="card-body pt-">
+                            <img src="image/company-1.png" class="ps-2" alt="">
+                            <img src="image/company-2.png" class="ps-2" alt="">
+                            <img src="image/company-3.png" class="ps-2" alt="">
+                            <img src="image/company-4.png" class="ps-2" alt="">
+                            <img src="image/company-5.png" class="ps-2" alt="">
+                            <img src="image/company-6.png" class="ps-2" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <footer class="bg-dark text-center text-white p-5">
+            <p class="h3 pt-3">pro Edu</p>
+            <p>Full 7th Floor, 130 West 42nd Street, New York, NY 10036.</p>
+            <p>Student of Omon</p>
+            <p>privacy policy । Terms of use</p>
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href=<i class="fa-brands fa-facebook-f></i>"
+                        role="button"><i class="fa-brands fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+
+        </footer>
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
